@@ -369,6 +369,9 @@ button{
         width: 90%;
         padding-right: 15px;
     }
+    .person{
+        margin-right: 30px;
+    }
 }
 
 @media screen and (max-width: 991px) {
