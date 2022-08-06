@@ -1,0 +1,409 @@
+body, html{
+    background-color: #1D232A;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.container{
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 67px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+header{
+    width: 100%;
+}
+
+.Menu-lateral{
+    height: 1024px;
+    width: 205px;
+    background-color: #15191C;
+}
+
+.Menu_topo{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    background-color: #1D232A;
+    position: relative;
+}
+
+.ferst-video{
+    width: 832px;
+    height: 496px;
+    background-color: #2C343A;
+    border-radius: 16px;
+}
+
+.Primeira-linha{
+    margin-top: 30px;
+    width: 1120px;
+    display: flex;
+}
+
+.Favoritos{
+    height: 464px;
+    width: 256px;
+    background-color: #2C343A;
+    border-radius: 16px;
+    margin-left: 32px;
+}
+
+.logo{
+    display: block;
+    margin: 24px auto;
+}
+
+h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    /* identical to box height, or 123% */
+    
+    
+    /* Neutro/Branco */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.slider{
+    display: flex;
+    height: 304px;
+    justify-content: space-between;
+}
+
+.person{
+    width: 256px;
+    height: 304px;
+    background-color: #2C343A;
+    border-radius: 16px;
+}
+
+.new-artists{
+    height: 496px;
+    width: 258px;
+    background-color: #2C343A;
+    border-radius: 16px;
+}
+
+.new-artist{
+    margin-left: 32px;
+    width: 832px;
+    height: 496px;
+    background-color: #2C343A;
+    border-radius: 16px;
+}
+
+h2{
+    line-height: 4px;
+}
+
+img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.discription{
+    display: flex;
+    margin-left: 16px;
+    position: relative;
+}
+
+.name-person{
+    display: flex;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+/* Neutro/50 */
+
+color: #95999C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.textPerson{
+margin-left: 10px;
+}
+
+.btn{
+    position: absolute;
+    right: 16px;
+    top: 60px;
+}
+
+button{
+    background: #0480DC;
+    border-radius: 8px;
+    width: 153px;
+    height: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.textButton{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.time{
+    display: flex;
+    margin-top: 5px;
+}
+
+.timeText{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #95999C;
+    margin-left: 5px;
+}
+
+.views-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.views{
+    display: flex;
+    margin-left: 20px;
+}
+
+.countView{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #95999C;
+    margin-left: 5px;
+}
+
+.discription-left{
+    position: relative;
+}
+
+.icon{
+    height: 16px;
+    width: 16px;
+    padding-top: 3px;
+}
+
+.music-block{
+    width: 224px;
+    display: flex;
+    margin: 16px;
+}
+
+.music-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.music-artist{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #95999C;
+}
+
+.music-flex{
+    margin-left: 16px;
+}
+
+.music-block img{
+    width: 32px;
+    height: 35px;
+    border-radius: 0%;
+}
+
+.person{
+    position: relative;
+}
+
+.elips-person{
+    position: absolute;
+    right: 16px;
+    top: 132px;
+}
+
+.music-artist-slider{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #95999C;
+    margin: 16px 0 8px 0;
+}
+
+.bottom-description{
+    margin-left: 16px;
+}
+
+.slider-Person-music{
+    padding-bottom: 26px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Favoritos h4{
+    margin-left: 16px;
+}
+
+.new-artists h4{
+    margin-left: 16px;
+}
+
+.margText{
+    margin-top: 10px;
+}
+
+.imgBTN{
+    margin-top: 10px;
+}
+
+.menu-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
+
+.menu-active{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 0%;
+}
+
+.menu-inactive{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #95999C;
+    text-decoration: none;
+    align-items: center;
+    
+    display: flex;
+}
+
+.menu-icon{
+    border-radius: 0%;
+    margin-right: 16px;
+}
+
+.nickName{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #95999C;
+    margin-left: 8px;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 58px;
+    top: 24px;
+}
+
+.bell{
+    margin-left: 32px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 90%;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 90%;
+    }
+
+    .person{
+        margin-right: 30px;
+    }
+
+    .user{
+        left: 930px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 90%;
+        padding: 0 15px;
+    }
+
+    .person{
+        margin-right: 30px;
+    }
+
+    .user{
+        left: 930px;
+    }
+}
+
+
